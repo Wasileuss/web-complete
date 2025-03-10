@@ -89,7 +89,7 @@ textarea {
 }
 @font-face {
   font-family: "SweetSansPro";
-  src: url("../fonts/SweetSansPro.woff2") format("woff2"), url("../fonts/SweetSansPro.woff") format("woff");
+  src: url("../fonts/SweetSansProRegular.woff2") format("woff2"), url("../fonts/SweetSansProRegular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -235,12 +235,9 @@ textarea {
   font-size: 12px;
   line-height: 1.5;
 }
-.blog__description * {
+.blog__description {
   line-height: 1.8;
   text-wrap: balance;
-}
-.blog__description p:not(:last-child) {
-  margin-bottom: 10px;
 }
 .blog__button-more {
   position: relative;
@@ -414,12 +411,9 @@ textarea {
 .post__category {
   font-size: 26px;
 }
-.post__description * {
+.post__description {
   font-size: 12px;
   line-height: 1.5;
-}
-.post__description p:not(:last-child) {
-  margin-bottom: 15px;
 }
 
 body {

@@ -1,5 +1,5 @@
 <div class="blog__header">
-    <h1 class="blog__title">The Journal</h1>
+    <h1 class="blog__title"><?php echo get_bloginfo('name'); ?></h1>
     <ul class="blog__category-list category-list">
         <li class="category-list__item">
             <a
